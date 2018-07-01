@@ -1,0 +1,20 @@
+{
+  "name": "mongo-back-end",
+  "version": "1.0.0",
+  "description": "Practice express backend with monogo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon app.js"
+  },
+  "author": "Gen M",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  }
+}
